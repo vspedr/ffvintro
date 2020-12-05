@@ -5,7 +5,7 @@ body {
 }
 
 .mountain-bg {
-  width: 200%;
+  width: calc(100% + 128px);
   height: 128px;
   background-image: url(assets/mountain-bg.png);
   background-size: contain;
@@ -16,7 +16,7 @@ body {
 }
 
 .grass-bg {
-  width: 200%;
+  width: calc(100% + 128px);
   height: 32px;
   background-image: url(assets/grass-bg.png);
   background-size: contain;
@@ -47,7 +47,7 @@ body {
 }
 
 .grass-fg {
-  width: 150%;
+  width: calc(100% + 128px);
   height: 32px;
   background-image: url(assets/grass-fg.png);
   background-size: contain;
